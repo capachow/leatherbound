@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #202225;
+}
+
+body:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: #7289DA;
+}
+
+body > iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
